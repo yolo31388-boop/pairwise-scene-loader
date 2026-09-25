@@ -1,3 +1,3 @@
-from .engine import SceneLoader, Resource, Scene
+from .engine import CancelToken, Resource, Scene, SceneLoader
 
-__all__ = ["SceneLoader", "Resource", "Scene"]
+__all__ = ["CancelToken", "Resource", "Scene", "SceneLoader"]
